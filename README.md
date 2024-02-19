@@ -1,23 +1,25 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
+# I.R.A
 
-# Python Flask Example
+Este proyecto, titulado Informes Resultados de Aprendizaje, es una herramienta diseñada para facilitar la calificación y la generación de informes, con el propósito de evaluar los resultados de aprendizaje en la institución UNIMAYOR.
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+## Instalación
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+Para ejecutar el backend de la aplicación, es necesario contar con Python 3.11.5 y realizar la instalación de las dependencias incluidas en el archivo Requirements.txt. Asegúrate de tener pip instalado y sigue estos pasos:
 
-## ✨ Features
+## Clona el repositorio:
 
-- Python
-- Flask
+`git clone https://github.com/CT-Zodiako/I.R.A.git`
 
-## 💁‍♀️ How to use
+## Instala las dependencias:
 
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+`pip install -r Requirements.txt`
+
+##Tecnologías Utilizadas
+Flask: Framework de Python utilizado para desarrollar el backend de la aplicación.
+Python 3.11.5: Versión específica de Python utilizada en este proyecto.
+Otras Dependencias: Ver el archivo Requirements.txt para obtener una lista detallada de las dependencias utilizadas.
+
+##Ejecución
+Para iniciar el backend de la aplicación, ejecuta el siguiente comando:
+
+`python run.py`
